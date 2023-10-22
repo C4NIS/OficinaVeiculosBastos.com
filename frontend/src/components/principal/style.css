@@ -1,0 +1,48 @@
+.container_principal{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.container_textos_principais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    
+}
+
+h2{
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p{
+    width: 445px;
+    height: 121px;
+
+    flex-shrink: 0;
+    color: #525252;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.personagem_principal{
+    width: 375px;
+    height: 475px;
+    flex-shrink: 0;
+}
+
+
+@media screen {
+    
+}

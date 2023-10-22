@@ -1,8 +1,14 @@
 import Header from "../../components/header";
+import Principal from "../../components/principal";
 
 function Home() {
   return (
-    Header()
+    <nav>
+      <Header />
+      <div>
+        <Principal />
+      </div>
+    </nav>
   )
 }
 
