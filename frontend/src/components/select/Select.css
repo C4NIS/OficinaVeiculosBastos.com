@@ -35,5 +35,5 @@ select:hover:active {
     background-color: #915630;
     box-shadow: #3FE38D 0px 0px 0px 0px;
     transform: translateY(5px);
-    transition: 200ms;
+    transition: 600ms;
 }
