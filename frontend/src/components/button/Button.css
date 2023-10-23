@@ -1,0 +1,35 @@
+.container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    align-items: center;  
+    padding: 17px 30px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+
+    background: #A97043;
+
+    color: #FFF;
+    font-family: Times New Roman;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button:hover{
+    background: #A97043;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button:active{
+    background: #b59379;
+    opacity: 0.8;
+    cursor: pointer;
+}

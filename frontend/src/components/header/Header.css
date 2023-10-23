@@ -3,12 +3,14 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 166px;
-    height: 10%;
+    
     background-color: #ffffff;
     top: 0;
     left: 0;
     right: 0;
 }
+
+
 
 .container_itens {
     display: flex;
@@ -30,6 +32,7 @@ a:hover {
 }
 
 @media screen and (max-width: 975px) {
+    
     .container {
       padding: 20px 20px;
     }
