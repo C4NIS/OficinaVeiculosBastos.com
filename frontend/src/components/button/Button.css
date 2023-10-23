@@ -5,15 +5,15 @@
 }
 
 .button {
- padding: 17px 40px;
- border-radius: 10px;
- border: 0;
- background-color:#A97043;
- letter-spacing: 1.5px;
- font-size: 15px;
- transition: all .3s ease;
- box-shadow: #CB9D6F 0px 9px 0px 0px;
- color: hsl(0, 0%, 100%);
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color:#A97043;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: #CB9D6F 0px 9px 0px 0px;
+    color: hsl(0, 0%, 100%);
 }
 
 .button:hover {
@@ -23,6 +23,6 @@
 .button:active {
     background-color: #07D17D;
     box-shadow: #3FE38D 0px 0px 0px 0px;
- transform: translateY(5px);
- transition: 200ms;
+    transform: translateY(5px);
+    transition: 200ms;
 }

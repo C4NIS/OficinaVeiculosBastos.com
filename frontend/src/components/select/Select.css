@@ -1,0 +1,39 @@
+select{
+    display: flex;
+    align-items: center;
+
+    width: 302px;
+    height: 64px;
+    padding: 17px 40px;
+    gap: 30px;
+
+    border: 2px solid #A97043;
+    border-radius: 10px;
+
+    background-color:hsl(0, 0%, 100%);
+    box-shadow: #CB9D6F 0px 9px 0px 0px;
+    color: #A97043;
+
+    font-family: Times New Roman;
+
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+
+}
+
+select:focus{
+    outline: none;
+    border: 2px solid #a37a5a;
+}
+
+select:hover{
+    box-shadow: #915630 0px 7px 0px 0px;
+}
+
+select:hover:active {
+    background-color: #915630;
+    box-shadow: #3FE38D 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+}

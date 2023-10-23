@@ -1,16 +1,11 @@
-.container_principal{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    padding: 4% 166px;
-    
-}
-
-.container_textos_principais{
-    padding: 5% 5% 0px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Padrões */
+h1{
+    color: #474747;
+    font-family: Times New Roman;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 h2{
@@ -24,9 +19,24 @@ h2{
     margin: 0px;
 }
 
+h4{
+    margin: 0;
+    width: 266px;
+    height: 29px;
+    flex-shrink: 0;
+
+    color: #868686;
+    font-family: Times New Roman;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 p{
     width: 445px;
     height: 121px;
+    
     margin: 2,5;
     flex-shrink: 0;
     color: #525252;
@@ -39,6 +49,21 @@ p{
     letter-spacing: 0.32px;
 }
 
+/* Setor Principal */
+.container_principal{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 4% 10% 2% 10%; 
+}
+
+.container_textos_principais{
+    padding: 5% 5% 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .personagem_principal{
     width: 375px;
     height: 475px;
@@ -49,9 +74,83 @@ p{
    margin: 2%;
 }
 
+/* Setor Servico */
+.container_servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 10%; 
+}
+
+.caminhao_servico{
+    padding: 2%; 
+    width: 519px;
+    height: 410px;
+}
+
+.container_interativo_servico{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    gap: 34%;
+}
+
+.container_textos_servico{
+    display: flex;
+    height: 138px;
+    flex-direction: column;
+    padding: 2% 0px 0px 0px;
+}
+
+.paragrafo_servico{
+    width: 445px;
+    padding: 2% 0px 0px 0px;
+    margin: 0;
+
+
+    color: #525252;
+    text-align: left;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+
+    flex-shrink: 0;
+}
+
+/* Responsividade */
+
+/* Telas Pequenas */
 @media screen and (max-width: 975px) {
+
+    /* Setor Responsivo do Principal */
     .personagem_principal{
         display: none;
+    }
+
+    /* Setor Responsivo do Serviço */
+    h1{
+        font-size: 42px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    .caminhao_servico{
+        width: 100%;
+        height: 100%;
+    }   
+}
+
+/* Telas UltraWide */
+@media screen and (min-width: 2560px) {
+
+    h2 { 
+        width: 70%;
+        font-size: 44px;
     }
     
 }
