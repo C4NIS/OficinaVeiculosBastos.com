@@ -1,5 +1,5 @@
-import Button from "../button";
 import "./style.css";
+import Button from "../button";
 
 const Principal = () => {
     return (
@@ -15,6 +15,7 @@ const Principal = () => {
                     <Button>Agende sua visita</Button>
                 </div>
             </div>
+
         </div>
     );
 };
