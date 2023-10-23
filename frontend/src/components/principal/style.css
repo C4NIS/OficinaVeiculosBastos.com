@@ -140,10 +140,13 @@ p{
         font-size: 32px;
     }
 
-    .caminhao_servico{
-        width: 100%;
-        height: 100%;
-    }   
+    .imagem_servico{
+        width: 90%;
+        height: 90%;
+    }
+    .container_interativo_servico{
+        flex-direction: column;
+    }
 }
 
 /* Telas UltraWide */

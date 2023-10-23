@@ -36,7 +36,6 @@ const Principal = () => {
         6 : 'Diagnóstico e reparo de sistemas eletrônicos, como sistemas de injeção de combustível, diagnóstico de falhas, sensores e sistemas de controle de emissões.', 
     }
 
-
     const [selectedOption, setSelectedOption] = useState(0);
     const [imageSrc, setImageSrc] = useState('');
 
@@ -88,7 +87,7 @@ const Principal = () => {
                 
                 <h1>Conheça Nossos Serviços</h1>
                 
-                {imageSrc && <img className="caminhao_servico" src={process.env.PUBLIC_URL + imageSrc} alt="Simbolo_de" />}
+                {imageSrc && <img className="imagem_servico" src={process.env.PUBLIC_URL + imageSrc} alt="Simbolo_de" />}
 
                 <div className="container_interativo_servico">
 
@@ -107,7 +106,6 @@ const Principal = () => {
                 </div>
                 
             </div>
-
 
         </div>
     );
