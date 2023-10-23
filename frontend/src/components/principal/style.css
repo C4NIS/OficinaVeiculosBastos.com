@@ -83,9 +83,9 @@ p{
     padding: 0% 10%; 
 }
 
-.caminhao_servico{
+.imagem_servico{
     padding: 2%; 
-    width: 519px;
+    width: 50%;
     height: 410px;
 }
 
@@ -133,7 +133,7 @@ p{
 
     /* Setor Responsivo do Serviço */
     h1{
-        font-size: 42px;
+        font-size: 210%;
     }
 
     h2{
@@ -141,8 +141,8 @@ p{
     }
 
     .imagem_servico{
-        width: 90%;
-        height: 90%;
+        width: 50%;
+        height: 50%;
     }
     .container_interativo_servico{
         flex-direction: column;
