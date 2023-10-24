@@ -1,15 +1,7 @@
 /*Padrões*/
-a{
-    text-decoration: none;
-    color: #3e3e3e;  
-}
 
-a:hover {
-    color: #915630;
-}
-
-/*Header*/
-.container {
+/*Container Father*/
+.container_header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -18,38 +10,34 @@ a:hover {
     padding: 24px 12%;
 }
 
+/*Logo*/
 .container_logo{
-    display: flex;
-    
-    justify-content: flex-start;
-    align-items: center;
     width: 17%;
 }
 
+/*Options*/
 .container_itens {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 
     gap: 30px;
+}
+
+.anchor_header{
+    color: black;
+    text-decoration: none;
 
     font-weight: 400;
     font-size: 26px;
     font-family: Times New Roman;
-      
 }
 
 
-
 @media screen and (max-width: 975px) {
-    
     .container {
       padding: 20px 20px;
     }
-
-    a{
-        font-size: 20px;}
-
     
 
 }

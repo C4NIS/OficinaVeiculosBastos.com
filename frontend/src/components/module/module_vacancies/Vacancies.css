@@ -1,0 +1,28 @@
+.container_vagas{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 5%; 
+}
+
+.personagem_baixo{
+    flex-shrink: 0;
+
+    width: 375px;
+    height: 475px;
+}
+
+.container_textos_vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0px 0px;
+}
+
+.container_botao_vagas{
+    margin: 0%;
+    padding: 10% 0% 0% 0%;
+}

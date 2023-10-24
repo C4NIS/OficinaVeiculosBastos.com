@@ -1,0 +1,44 @@
+.container_servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 10%; 
+}
+
+.imagem_servico{
+    padding: 2%; 
+    width: 50%;
+    height: 410px;
+}
+
+.container_interativo_servico{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    gap: 34%;
+}
+
+.container_textos_servico{
+    display: flex;
+    height: 138px;
+    flex-direction: column;
+    padding: 2% 0px 0px 0px;
+}
+
+.paragrafo_servico{
+    width: 100%;
+    padding: 2% 0px 0px 0px;
+    margin: 0;
+
+
+    color: #525252;
+    text-align: left;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+
+    flex-shrink: 0;
+}

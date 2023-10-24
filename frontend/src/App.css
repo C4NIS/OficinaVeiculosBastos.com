@@ -1,0 +1,52 @@
+/* Patterns */
+h1{
+  color: #474747;
+  font-family: Times New Roman;
+
+
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2{
+  color: #000;
+  font-family: Times New Roman;
+
+  font-size: 40px;
+  font-weight: 700;
+  
+}
+
+h3{
+  color: #5C5C5C;
+  font-family: Times New Roman;
+
+  font-size: 33px;  
+  font-weight: 700;
+}
+
+h4{
+  color: #868686;
+  font-family: Times New Roman;
+
+  font-size: 28px;  
+  font-weight: 400;
+}
+
+p{
+  color: #525252;  
+  font-family: Times New Roman;
+
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+  color: #3e3e3e;  
+}
+
+a:hover {
+  color: #915630;
+}
+

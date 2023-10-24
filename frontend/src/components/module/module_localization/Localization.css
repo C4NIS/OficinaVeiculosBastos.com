@@ -1,0 +1,27 @@
+.container_localicacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 10%; 
+}
+
+.container_mapa{
+    padding: 2% 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem_localicacao{
+    width: 540px;
+    height: 540px;
+}
+
+.container_textos_localicacao{
+    padding: 10% 0px 0px 4%;
+}
+
+.container_botao_localicacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
