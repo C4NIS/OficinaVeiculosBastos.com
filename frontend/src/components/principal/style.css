@@ -19,6 +19,15 @@ h2{
     margin: 0px;
 }
 
+h3{
+    color: #5C5C5C;
+    font-family: Times New Roman;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 h4{
     text-align: center;
     margin: 0;
@@ -121,17 +130,72 @@ p{
     flex-shrink: 0;
 }
 
+/* Setor Localicacao */
+.container_localicacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 10%; 
+}
+
+.container_mapa{
+    padding: 2% 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem_localicacao{
+    width: 540px;
+    height: 540px;
+}
+
+.container_textos_localicacao{
+    padding: 10% 0px 0px 4%;
+}
+
+.container_botao_localicacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Setor Vagas */
+
+.container_vagas{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 5%; 
+}
+
+.personagem_baixo{
+    flex-shrink: 0;
+
+    width: 375px;
+    height: 475px;
+}
+
+.container_textos_vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0px 0px;
+}
+
+.container_botao_vagas{
+    margin: 0%;
+    padding: 10% 0% 0% 0%;
+}
+
 /* Responsividade */
 
 /* Telas Pequenas */
 @media screen and (max-width: 975px) {
 
-    /* Setor Responsivo do Principal */
-    .personagem_principal{
-        display: none;
-    }
-
-    /* Setor Responsivo do Serviço */
+    /* Padrões para responsividade */
     h1{
         font-size: 210%;
     }
@@ -140,6 +204,12 @@ p{
         font-size: 32px;
     }
 
+    /* Setor Responsivo do Principal */
+    .personagem_principal{
+        display: none;
+    }
+
+    /* Setor Responsivo do Serviço */
     .imagem_servico{
         width: 50%;
         height: 50%;
@@ -147,6 +217,31 @@ p{
     .container_interativo_servico{
         flex-direction: column;
     }
+
+    /* Setor Responsivo da Localicacao */
+    
+    .imagem_localicacao{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container_mapa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+     /* Setor Responsivo da Vagas */
+
+    .personagem_baixo{
+        display: none;
+    }
+
+    .container_textos_vagas{
+        padding: 0% 0% 0px 0px;
+        text-align: center;
+    }
+
 }
 
 /* Telas UltraWide */

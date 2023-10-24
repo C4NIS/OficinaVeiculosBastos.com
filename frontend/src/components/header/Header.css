@@ -1,35 +1,45 @@
+/*Padrões*/
+a{
+    text-decoration: none;
+    color: #3e3e3e;  
+}
+
+a:hover {
+    color: #915630;
+}
+
+/*Header*/
 .container {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    padding: 24px 10%;
-    
-    background-color: #ffffff;
-    top: 0;
-    left: 0;
-    right: 0;
+
+    padding: 24px 12%;
 }
 
-
+.container_logo{
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    width: 17%;
+}
 
 .container_itens {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
     gap: 30px;
-}
 
-a {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 26px;
     font-family: Times New Roman;
-    color: #3e3e3e;
-    text-decoration: none;
+      
 }
 
-a:hover {
-    color: #ff0000;
-}
+
 
 @media screen and (max-width: 975px) {
     
@@ -39,5 +49,7 @@ a:hover {
 
     a{
         font-size: 20px;}
+
+    
 
 }
