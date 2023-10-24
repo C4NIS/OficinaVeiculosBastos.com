@@ -59,6 +59,31 @@ p{
     letter-spacing: 0.32px;
 }
 
+/* Setor Principal */
+.container_principal{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 4% 10% 2% 10%; 
+}
+
+.container_textos_principais{
+    padding: 5% 5% 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personagem_principal{
+    width: 375px;
+    height: 475px;
+    flex-shrink: 0;
+}
+
+.container_botao_principal{
+   margin: 2%;
+}
+
 /* Setor Servico */
 .container_servico{
     display: flex;
@@ -177,6 +202,11 @@ p{
 
     h2{
         font-size: 32px;
+    }
+
+    /* Setor Responsivo do Principal */
+    .personagem_principal{
+        display: none;
     }
 
     /* Setor Responsivo do Serviço */

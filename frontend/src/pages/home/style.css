@@ -1,0 +1,57 @@
+.container_principal{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 4% 166px;
+    
+}
+
+.container_textos_principais{
+    padding: 5% 5% 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: #000;
+    font-family: Times New Roman;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+p{
+    width: 445px;
+    height: 121px;
+    margin: 2,5;
+    flex-shrink: 0;
+    color: #525252;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.personagem_principal{
+    width: 375px;
+    height: 475px;
+    flex-shrink: 0;
+}
+
+.container_botao_principal{
+   margin: 2%;
+}
+
+@media screen and (max-width: 975px) {
+    .personagem_principal{
+        display: none;
+    }
+    
+}

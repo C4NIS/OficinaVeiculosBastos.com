@@ -2,7 +2,7 @@ import "./Header.css"
 
 const Header = () =>{
     return(
-        <header className = "container">
+        <nav className = "container">
 
             <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
                 <img className="container_logo" src="/assets/icon.svg" alt='logo' />
@@ -18,7 +18,7 @@ const Header = () =>{
             
             </div>
 
-        </header>
+        </nav>
     )
 }
 

@@ -1,9 +1,8 @@
-import Header from "../layout/header";
-import ContainerEntrada from "../layout/containerEntrada";
+import Home from "./pages/home";
+
 function App() {
   return (
-    <Header />
-    
+    Home()
   );
 }
 
