@@ -64,7 +64,7 @@ const Service = () => {
     };
 
     return (
-        <div className="container_service">
+    <div className="container_service">
                 
         <h1 className="title_service">Conheça Nossos Serviços</h1>
         
