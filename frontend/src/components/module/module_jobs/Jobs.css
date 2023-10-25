@@ -1,28 +1,40 @@
-.container_vagas{
+.container_jobs{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
     padding: 5%; 
+
+    margin: 0% 15% 0% 15%;
 }
 
-.personagem_baixo{
+.img_jobs{
     flex-shrink: 0;
 
     width: 375px;
     height: 475px;
 }
 
-.container_textos_vagas{
+.container_texts_jobs{
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    margin: 0% 0% 0% 0%;
+    justify-content: center;
     padding: 0% 0% 0px 0px;
 }
 
-.container_botao_vagas{
+.paragrafh_jobs{
+    margin: 3%;
+    text-align: center;
+}
+
+.container_button_jobs{
     margin: 0%;
-    padding: 10% 0% 0% 0%;
+    padding: 5% 0% 0% 0%;
+}
+
+@media screen and (max-width: 968px) {
+    .img_jobs{
+        display: none;
+    }
 }
