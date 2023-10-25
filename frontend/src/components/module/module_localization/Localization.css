@@ -11,7 +11,7 @@
 
 /** Img **/
 .img_localization{
-    width: 540px;
+    width: 340px;
     height: 540px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -35,11 +35,15 @@
 .paragrafh_txt_localization{
     font-size: 20px;
     margin-bottom: 5%;
+
+    text-align: center;
 }
 
 .sub_paragrafh_localization{
     font-size: 20px;
     margin-bottom: 5%;
+    
+    text-align: center;
 }
 
 .container_button_localization{
@@ -48,3 +52,27 @@
     align-items: center;
     margin: 12%;
 }
+
+@media screen and (max-width: 975px) {
+    .container_map{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        gap: 10%;
+        margin: 0% 17% 0% 17% ;
+    }
+
+    .img_localization{
+        width: 340px;
+        height: 340px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+        margin: 30% 0% 0% 0%;
+    
+    }
+}
+
+/* Path: frontend/src/components/module/module_localization/Localization.js */
