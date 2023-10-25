@@ -1,44 +1,102 @@
-.container_servico{
+/* Path: frontend/src/components/module/module_service/Service.js */
+
+/** Container Father **/
+.container_service{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0% 10%; 
+
+    margin: 0% 15% 10% 15%;
 }
 
+/* Content */
 .imagem_servico{
-    padding: 2%; 
+    padding: 1% 0% 5% 0%;; 
     width: 50%;
     height: 410px;
 }
 
-.container_interativo_servico{
+/* Container Children */
+.container_service_interaction{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1%;
-    gap: 34%;
+
+    gap: 20%;
+}
+
+/* Texts */
+.title_service{
+    font-weight: 700;
+    padding: 2% 0% 2% 0%;
 }
 
 .container_textos_servico{
     display: flex;
-    height: 138px;
     flex-direction: column;
-    padding: 2% 0px 0px 0px;
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+.title_text_service{
+    display: block;
+    flex-direction: row;
+
+    text-align: center;
+    font-weight: 600;
+
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
 }
 
 .paragrafo_servico{
-    width: 100%;
-    padding: 2% 0px 0px 0px;
-    margin: 0;
+    display: block;
+    flex-direction: row;
 
-
-    color: #525252;
-    text-align: left;
-    font-family: Times New Roman;
-    font-size: 16px;
+    text-align: justify;
     font-weight: 400;
-    letter-spacing: 0.32px;
+    width: 400px;
 
-    flex-shrink: 0;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+Select option{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+    .container_service{
+        margin: 0% 10% 10% 10%;
+    }
+
+    .imagem_servico{
+        width: 50%;
+        height: 210px;
+    }
+
+    .container_service_interaction{
+        flex-direction: column;
+        gap: 0%;
+    }
+
+    .title_service{
+        font-size: 1.5rem;
+    }
+
+    .container_textos_servico{
+        width: 100%;
+    }
+
+    .title_text_service{
+        font-size: 1.2rem;
+    }
+
+    .paragrafo_servico{
+        font-size: 1rem;
+    }
+    
 }
