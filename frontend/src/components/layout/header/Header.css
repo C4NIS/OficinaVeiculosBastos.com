@@ -12,7 +12,7 @@
 
 /*Logo*/
 .container_logo{
-    width: 17%;
+    width: 45px;
 }
 
 /*Options*/
@@ -39,5 +39,8 @@
       padding: 20px 20px;
     }
     
+    .anchor_header{
+        font-size: 20px;
+    }
 
 }
